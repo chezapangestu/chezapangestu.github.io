@@ -9,7 +9,7 @@ function Portoflio(){
         <div className="next-section sm:small-body md:medium-body lg:large-body dark:bg-dark-black dark:text-white">
             <div>
             <h1 className="text-3xl font-bold mb-6">
-            📂 Project
+             Project
             </h1>
             </div>
                 <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-fit lg:grid-cols-3 lg:gap-x-8 lg:px-6">
@@ -36,7 +36,7 @@ function Portoflio(){
                 {/* <img src="https://i.pinimg.com/originals/f8/e3/95/f8e395b6785428be9450d570bf48bf09.png" alt="Walnut card tray filled with cards and card angled in dedicated groove." className="object-fill h-100 w-500 rounded-lg bg-gray-100" /> */}
                 <div className="mx-auto max-w-2xl pt-10 pb-16 sm:px-6 lg:grid lg:max-w-fit lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
                 <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-                    <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Website projects</h1>
+                    <h1 className="text-2xl font-bold tracking-tight dark:text-white text-gray-900 sm:text-3xl">Website projects</h1>
                 </div>
 
                 <div className="mt-4 lg:row-span-3 lg:mt-0">
@@ -75,10 +75,10 @@ function Portoflio(){
 
 
                     <div>
-                        <h3 className="text-sm font-medium text-gray-900">Color pallete</h3>
+                        <h3 className="text-sm font-medium text-gray-900 dark:text-white">Color pallete</h3>
 
                         <fieldset className="mt-4">
-                        <legend className="sr-only">Choose a color</legend>
+                        <legend className="sr-only ">Choose a color</legend>
                         <div className="flex items-center space-x-3">
 
                             <label className="-m-0.5 relative p-0.5 rounded-full flex items-center justify-center cursor-pointer focus:outline-none ring-gray-400">
@@ -105,8 +105,8 @@ function Portoflio(){
                     </div> 
 
                     <div className="mt-5">
-                        <h3 className="text-sm font-medium text-gray-900">Source</h3>
-                        <button className="mt-4 flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-300 py-3 px-8 text-base font-medium text-white hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">GitHub</button>
+                        <h3 className="text-sm font-medium text-gray-900 dark:text-white">Source</h3>
+                        <button className="mt-4 flex w-full items-center justify-center rounded-md border border-transparent bg-sky-300 py-3 px-8 text-base font-medium text-white hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">GitHub</button>
                     </div>
 
                     {/*<div className="mt-10">
@@ -202,31 +202,31 @@ function Portoflio(){
                     <h3 className="sr-only">Description</h3>
 
                     <div className="space-y-6">
-                        <p className="text-base text-gray-900">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
+                        <p className="text-base text-justify text-gray-900 dark:text-white">The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: &quot;Black&quot;. Need to add an extra pop of color to your outfit? Our white tee has you covered.</p>
                     </div>
                     </div>
 
                     <div className="mt-10">
-                    <h3 className="text-sm font-medium text-gray-900">Highlights</h3>
+                    <h3 className="text-sm font-medium text-gray-900 dark:text-white">Highlights</h3>
 
                     <div className="mt-4">
                         <div role="list" className="list-disc space-y-2 pl-4 text-sm">
-                        <li className="text-gray-400"><span className="text-gray-600">Hand cut and sewn locally</span></li>
+                        <li className="text-gray-400"><span className="text-gray-600">SOON</span></li>
 
-                        <li className="text-gray-400"><span className="text-gray-600">Dyed with our proprietary colors</span></li>
+                        <li className="text-gray-400"><span className="text-gray-600">SOON</span></li>
 
-                        <li className="text-gray-400"><span className="text-gray-600">Pre-washed &amp; pre-shrunk</span></li>
+                        <li className="text-gray-400"><span className="text-gray-600">SOON</span></li>
 
-                        <li className="text-gray-400"><span className="text-gray-600">Ultra-soft 100% cotton</span></li>
+                        <li className="text-gray-400"><span className="text-gray-600">SOON</span></li>
                         </div>
                     </div>
                     </div>
 
                     <div className="mt-10">
-                    <h2 className="text-sm font-medium text-gray-900">Details</h2>
+                    <h2 className="text-sm font-medium text-gray-900 dark:text-white">Details</h2>
 
                     <div className="mt-4 space-y-6">
-                        <p className="text-sm text-gray-600">The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming &quot;Charcoal Gray&quot; limited release.</p>
+                        <p className="text-sm text-gray-600">SOON</p>
                     </div>
                     </div>
                 </div>
