@@ -5,9 +5,10 @@ function Hardbar(){
     const menu = document.querySelector(".mobile-menu");
 
     // add event listeners
+    if(btn){
     btn.addEventListener("click", () => {
     menu.classList.toggle("hidden");
-    });
+    })};
 
     return(<div>
         <nav class="bg-gray-100">
