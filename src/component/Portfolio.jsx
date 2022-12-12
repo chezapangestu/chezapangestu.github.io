@@ -8,7 +8,7 @@ function Portoflio(){
             <h1 className="text-3xl font-bold">
             What I recently worked on ✍
             </h1>
-            <p className="font-medium mb-6">Read about some of the products I've got the opportunity to work on</p>
+            <p className="font-medium text-gray-500 dark:text-whity mb-6">Read about some of the products I've got the opportunity to work on</p>
             <div className="rounded-lg border-2 border-gray-100 bg-gray-50 dark:bg-blacky dark:border-gray-700">
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                     <div className="order-last pb-6 pt-2 sm:py-6 md:py-6 lg:py-6 px-6">

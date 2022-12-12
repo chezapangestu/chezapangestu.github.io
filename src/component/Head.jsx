@@ -12,7 +12,7 @@ function Head(){
                 <div className="grid grid-cols-1 pt-28 sm:pt-28 md:pt-28 lg:pt-32 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                     <div>
                         <p className="animate-pulse text-sm font-semibold pt-5">👋 currently looking for work</p>
-                        <h1 className="text-4xl md:text-6xl lg:text-6xl font-black mt-6">
+                        <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mt-6">
                             Vijay Cheza Pangestu
                         </h1>
                         <p className="leading-tight lg:leading-tight sm:font-large md:font-large lg:font-large font-semibold mt-6">is a front-end & software engineer web enthusiast. Passionate about creating products and experiences people love to use. </p>
@@ -46,7 +46,7 @@ function Head(){
                     </div>
                     
                 </div>
-                        <p className="leading-loose font-medium text-md text-justify mt-10 dark:text-whity">
+                        <p className="leading-loose font-medium text-md text-justify text-gray-500 dark:text-whity  mt-10">
                         I am a graduate student of Telkom University, majoring in Informatics. Throughout college, I discovered my enthusiasm for Web Programming courses. Since then I have studied and focused on website programming.
                         <br /><br />
                         It didn't end there, during my studies I joined many committees and organizations related to design. I also work on website projects. One of the big projects that I have created is the viral. Live website which aims to brand viral products and sell Smarteye Virtual Convention Center (SVCC) products, namely Webinar & Virtual Expo during my internship in PT. Telkom Indonesia in its position as Web developer. The results of the website that I created were able to bring my team (ViReal SVCC 3-2) to become the best team in the SVCC project. 
@@ -71,8 +71,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Trainer<span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
-                            <p className="dark:text-blue-300">Telkom Indonesia ITDRI</p>
+                            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Trainer - Telkom Indonesia ITDRI<span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
+                            {/* <p className="dark:text-blue-300">Telkom Indonesia ITDRI</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jul 2022 - Aug 2022</time>
                             <p className="text-sm text-justify font-normal text-gray-500 dark:text-gray-400">
                             The SMK project aims to increase the competitiveness and capability of SMK students so that they can see the digital talent potential of SMK students throughout Indonesia. Project SMK has 5 (five) main products, namely SmartEye, Sprinthink, Tomps, MyDigiLearn, and Ideabox. SmartEye is a digital service provider through the development of virtual reality and augmented reality to provide immersive experiences. Sprintthink is a service provider of mindset transformation and problem solving delivered through training, workshops, or training of trainers. Next, Tomps is a project management tool based on mobile applications and websites that can facilitate the management of a project. MyDigiLearn is a learning platform developed to accommodate corporate learning. Lastly, Ideabox is a website-based application that functions as an innovation crowdsource.
@@ -83,8 +83,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Web Developer Intern</h3>
-                            <p className="dark:text-blue-300">Telkom Indonesia ITDRI</p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Web Developer Intern - Telkom Indonesia ITDRI</h3>
+                            {/* <p className="dark:text-blue-300">Telkom Indonesia ITDRI</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2022 - Jul 2022</time>
                             <p className="text-sm text-justify font-normal text-gray-500 dark:text-gray-400">Working on SVCC (Smarteye Virtual Convention Center) is a project to sell SVCC products throughout Indonesia. SVCC's main goal is to combine immersive worlds with 360° panoramic merging and to present learning content for free. The application of SVCC products includes making an expo and also webinars. My area of responsibilities: </p>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 mt-3 text-sm">
@@ -102,8 +102,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Ux Research Intern</h3>
-                            <p className="dark:text-blue-300">Telkom Indonesia DXB</p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">UX Research Intern - Telkom Indonesia DXB</h3>
+                            {/* <p className="dark:text-blue-300">Telkom Indonesia DXB</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jul 2021 - Aug 2021</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Perform usability testing (UT) and heuristic evaluation (HE) on the application Linkaja Telkom Group</li>
@@ -129,8 +129,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Secretary <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
-                            <p className="dark:text-blue-300">Himpunan Mahasiswa S1 Informatika Telkom University</p>
+                            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Secretary - Himpunan Mahasiswa S1 Informatika Telkom University<span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
+                            {/* <p className="dark:text-blue-300">Himpunan Mahasiswa S1 Informatika Telkom University</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jun 2021 - Mar 2022</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm ">
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Responsible and coordinate to the Chair and Deputy Chairperson of HIMA IF</li>
@@ -145,8 +145,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
-                            <p className="dark:text-blue-300">BUILD A BOT</p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff - BUILD A BOT</h3>
+                            {/* <p className="dark:text-blue-300">BUILD A BOT</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct 2020 - Dec 2020</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media build_a_bot2020</li>
@@ -161,8 +161,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
-                            <p className="dark:text-blue-300">COPA Tel-U</p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff - COPA Tel-U</h3>
+                            {/* <p className="dark:text-blue-300">COPA Tel-U</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct 2020 - Dec 2020</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media copa_telu</li>
@@ -178,8 +178,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
-                            <p className="dark:text-blue-300">Software Engineering Quality Leadership 2020</p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff - Software Engineering Quality Leadership</h3>
+                            {/* <p className="dark:text-blue-300">Software Engineering Quality Leadership 2020</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sep 2020 - Nov 2020</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media accounts</li>
@@ -195,8 +195,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
-                            <p className="dark:text-blue-300">Information Security and Programming Competition (iCyption) 2020</p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff - Information Security and Programming Competition (iCyption)</h3>
+                            {/* <p className="dark:text-blue-300">Information Security and Programming Competition (iCyption) 2020</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">May 2020 - Jul 2020</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media accounts</li>
@@ -212,8 +212,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Economy Staff</h3>
-                            <p className="dark:text-blue-300">Perhimpunan Mahasiswa Bandung Telkom University (PERMIB) </p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Economy Staff - Perhimpunan Mahasiswa Bandung Telkom University (PERMIB)</h3>
+                            {/* <p className="dark:text-blue-300">Perhimpunan Mahasiswa Bandung Telkom University (PERMIB) </p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Aug 2020 - Feb 2021</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Ensuring income for the organization in an attractive, creative and innovative way</li>
@@ -229,8 +229,8 @@ function Head(){
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                                 <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                             </span>
-                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Media Information and Communication Staff</h3>
-                            <p className="blue-300 dark:text-blue-300">Himpunan Mahasiswa S1 Informatika Telkom University</p>
+                            <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Media Information and Communication Staff - Himpunan Mahasiswa S1 Informatika Telkom University</h3>
+                            {/* <p className="blue-300 dark:text-blue-300">Himpunan Mahasiswa S1 Informatika Telkom University</p> */}
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2020 - Feb 2021</time>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Make SOP for information distribution structurally and efficiently</li>
