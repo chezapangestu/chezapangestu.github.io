@@ -1,6 +1,14 @@
 import React from "react";
 
 function Hardbar(){
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    // add event listeners
+    btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+    });
+
     return(<div>
         <nav class="bg-gray-100">
           <div class="max-w-6xl mx-auto px-4">
