@@ -63,7 +63,7 @@ function Head(){
                     <ol className="relative"> 
                         <div>                 
                             <h1 className="text-3xl font-bold">
-                                Work Experience
+                                Work Experience 📐
                             </h1>
                         </div>
                     <div className="border-l border-gray-200 dark:border-gray-700">
@@ -107,7 +107,7 @@ function Head(){
                     <ol className="relative">   
                         <div>               
                             <h1 className="text-3xl font-bold">
-                                Organizational Experience
+                                Organizational Experience 📐
                             </h1>
                         </div>
                     <div className=" border-l border-gray-200 dark:border-gray-700">

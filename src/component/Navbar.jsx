@@ -29,7 +29,7 @@ function Navbar(){
       <nav className="bg-white px-2 sm:px-4 py-2.0 dark:bg-black-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-20">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
           <div className="flex items-center">
-          <button onClick={handleClickScroll} value="head" className="self-center tracking-[-.10em] text-2xl font-bold whitespace-nowrap dark:text-white py-3 pl-5 mb-1">vijaycheza.</button>
+          <button onClick={handleClickScroll} value="head" className="self-center tracking-[-.10em] max-[360px]:text-[0px] text-xl sm:text-xl md:text-2xl lg:text-2xl font-bold whitespace-nowrap dark:text-white py-3 pl-5 mb-1">vijaycheza.</button>
               {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" /> */}
               {/* <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white  pl-5 mb-2">cheza's</span> */}
           </div>

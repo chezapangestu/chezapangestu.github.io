@@ -9,7 +9,7 @@ function Portoflio(){
         <div className="next-section sm:small-body md:medium-body lg:large-body dark:bg-dark-black dark:text-white">
             <div>
             <h1 className="text-3xl font-bold mb-6">
-                Project
+            📂 Project
             </h1>
             </div>
                 <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-fit lg:grid-cols-3 lg:gap-x-8 lg:px-6">
@@ -75,7 +75,7 @@ function Portoflio(){
 
 
                     <div>
-                        <h3 className="text-sm font-medium text-gray-900">Color</h3>
+                        <h3 className="text-sm font-medium text-gray-900">Color pallete</h3>
 
                         <fieldset className="mt-4">
                         <legend className="sr-only">Choose a color</legend>
@@ -106,7 +106,7 @@ function Portoflio(){
 
                     <div className="mt-5">
                         <h3 className="text-sm font-medium text-gray-900">Source</h3>
-                        <button className="mt-4 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">GitHub</button>
+                        <button className="mt-4 flex w-full items-center justify-center rounded-md border border-transparent bg-yellow-300 py-3 px-8 text-base font-medium text-white hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">GitHub</button>
                     </div>
 
                     {/*<div className="mt-10">
