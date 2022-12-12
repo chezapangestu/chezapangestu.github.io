@@ -7,12 +7,12 @@ function Contact(){
                     <h1 className="text-3xl font-bold mb-6">
                         Contact me
                     </h1>
-                        <div role="list" className="list-disc space-y-2 pl-4 text-sm">
-                            <li className="text-gray-400 dark:text-white text-sm"><span className="text-gray-600 dark:text-white">Email: <a className="underline hover:text-black dark:hover:text-blue-300" href="mailto:vijaycheza@gmail.com">vijaycheza@gmail.com</a></span></li>
-                            <li className="text-gray-400 dark:text-white text-sm"><span className="text-gray-600 dark:text-white">GitHub: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://github.com/chezapangestu">github.com/chezapangestu</a></span></li>
-                            <li className="text-gray-400 dark:text-white text-sm"><span className="text-gray-600 dark:text-white">Instagram: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://www.instagram.com/vijaychez/">instagram.com/vijaychez/</a></span></li>
-                            <li className="text-gray-400 dark:text-white text-sm"><span className="text-gray-600 dark:text-white">LinkedIn: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://www.linkedin.com/in/vijaychezapangestu/">linkedin.com/in/vijaychezapangestu/</a></span></li>
-                            <li className="text-gray-400 dark:text-white text-sm"><span className="text-gray-600 dark:text-white">Dribble: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://dribbble.com/senimanmudakreatif">dribbble.com/senimanmudakreatif</a></span></li>
+                        <div role="list" className="list-disc space-y-2 pl-4 text-sm sm:text-sm md:text-lg lg:text-lg">
+                            <li className="text-gray-400 dark:text-white"><span className="text-gray-600 dark:text-white">Email: <a className="underline hover:text-black dark:hover:text-blue-300" href="mailto:vijaycheza@gmail.com">vijaycheza@gmail.com</a></span></li>
+                            <li className="text-gray-400 dark:text-white"><span className="text-gray-600 dark:text-white">GitHub: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://github.com/chezapangestu">github.com/chezapangestu</a></span></li>
+                            <li className="text-gray-400 dark:text-white"><span className="text-gray-600 dark:text-white">Instagram: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://www.instagram.com/vijaychez/">instagram.com/vijaychez/</a></span></li>
+                            <li className="text-gray-400 dark:text-white"><span className="text-gray-600 dark:text-white">LinkedIn: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://www.linkedin.com/in/vijaychezapangestu/">linkedin.com/in/vijaychezapangestu/</a></span></li>
+                            <li className="text-gray-400 dark:text-white"><span className="text-gray-600 dark:text-white">Dribble: <a className="underline hover:text-black dark:hover:text-blue-300" href="https://dribbble.com/senimanmudakreatif">dribbble.com/senimanmudakreatif</a></span></li>
                         </div>
                             
                         {/* </ul>
