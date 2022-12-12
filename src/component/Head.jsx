@@ -15,7 +15,7 @@ function Head(){
                         <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mt-6">
                             Vijay Cheza Pangestu
                         </h1>
-                        <p className="font-semibold mt-6">is a front-end & software engineer web enthusiast. Passionate about creating products and experiences people love to use. </p>
+                        <p className="text-sm sm:text-base md:text-base lg:text-base font-semibold mt-6">is a front-end & software engineer web enthusiast. Passionate about creating products and experiences people love to use. </p>
                             {/* <h1 className="text-2xl mt-8"><em>Front-end Enthusiast</em></h1> */}
                         <div className="mt-6 mb-5">
                             {/* <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">Frontend</span> */}
