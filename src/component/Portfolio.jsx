@@ -3,7 +3,7 @@ import React from "react";
 function Portoflio(){
     return(
         <section id="portfolio">
-        <div className="dark:bg-dark-black dark:text-white pt-16 sm:pt28 md:pt-28 lg:pt-28">
+        <div className="dark:bg-dark-black dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28">
         
         {/* <div className="bg-[length:200px_100px]"> */}
         
