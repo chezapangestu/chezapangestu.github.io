@@ -26,105 +26,42 @@ function Navbar(){
 
     return( <div>
 
-        <nav class="bg-gray-800">
-          <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div class="relative flex h-16 items-center justify-between">
-              <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* <!-- Mobile menu button--> */}
-                <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-                  <span class="sr-only">Open main menu</span>
-                  {/* <!--
-                    Icon when menu is closed.
-
-                    Heroicon name: outline/bars-3
-
-                    Menu open: "hidden", Menu closed: "block"
-                  --> */}
-                  <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
-                  {/* <!--
-                    Icon when menu is open.
-
-                    Heroicon name: outline/x-mark
-
-                    Menu open: "block", Menu closed: "hidden"
-                  --> */}
-                  <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-              <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div class="flex flex-shrink-0 items-center">
-                  <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
-                  <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
-                </div>
-                <div class="hidden sm:ml-6 sm:block">
-                  <div class="flex space-x-4">
-                    {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                    <a href="https://www.google.com" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>
-
-                    <a href="https://www.google.com" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
-
-                    <a onClick={handleClickScroll} value="contact-me" href="https://www.google.com" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-
-                    <a onClick={handleThemeSwitch} href="https://www.google.com" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
-                  </div>
-                </div>
-              </div>
-              <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button type="button" class="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                  <span class="sr-only">View notifications</span>
-                  {/* <!-- Heroicon name: outline/bell --> */}
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
-                  </svg>
-                </button>
-
-                {/* <!-- Profile dropdown --> */}
-                <div class="relative ml-3">
-                  <div>
-                    <button type="button" class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-                      <span class="sr-only">Open user menu</span>
-                      <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                    </button>
-                  </div>
-
-                  {/* <!--
-                    Dropdown menu, show/hide based on menu state.
-
-                    Entering: "transition ease-out duration-100"
-                      From: "transform opacity-0 scale-95"
-                      To: "transform opacity-100 scale-100"
-                    Leaving: "transition ease-in duration-75"
-                      From: "transform opacity-100 scale-100"
-                      To: "transform opacity-0 scale-95"
-                  --> */}
-                  <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
-                    {/* <!-- Active: "bg-gray-100", Not Active: "" --> */}
-                    <a href="https://www.google.com" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
-                    <a href="https://www.google.com" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
-                    <a href="https://www.google.com" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
-                  </div>
-                </div>
-              </div>
+        <nav className="bg-white px-2 sm:px-4 py-2.0 dark:bg-black-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-20">
+        <div className="container flex flex-wrap items-center justify-between mx-auto">
+            <div className="flex items-center">
+            <button onClick={handleClickScroll} value="head" className="self-center tracking-[-.10em] text-2xl font-bold whitespace-nowrap dark:text-white py-3 pl-5 mb-1">vijaycheza.</button>
+                {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" /> */}
+                {/* <span className="self-center text-2xl font-bold whitespace-nowrap dark:text-white  pl-5 mb-2">cheza's</span> */}
             </div>
-          </div>
+            <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span className="sr-only">Open main menu</span>
+            <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul className="flex flex-col text-right p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-black-900 md:dark:bg-black-900 dark:border-gray-400 mb-4 sm:mb-4 md:mb-0 lg:mb=0">
+                <li>
+                <button onClick={handleClickScroll} value="body-experience" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:bg-gray-100 dark:focus:bg-dark-black">Experience</button>
+                </li>
+                <li>
+                <button onClick={handleClickScroll} value="portfolio" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:bg-gray-100 dark:focus:bg-dark-black">Projects</button>
+                </li>
+                <li>
+                <button onClick={handleClickScroll} value="contact-me" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:bg-gray-100 dark:focus:bg-dark-black">Contact</button>
+                </li>
 
-          {/* <!-- Mobile menu, show/hide based on menu state. --> */}
-          <div class="sm:hidden" id="mobile-menu">
-            <div class="space-y-1 px-2 pt-2 pb-3">
-              {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-              <a href="https://www.google.com" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Dashboard</a>
+                <li>
+                  {/* <div className="mt-2 sm:mt-2 md:mt-0 lg:mt-0 pl-3 pr-4"> */}
+                    <label class="inline-flex relative items-center cursor-pointer mt-1.5 mr-2">
+                      <input type="checkbox" value="" className="sr-only peer" />
+                      <div onClick={handleThemeSwitch} className="w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-gray-500 after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white dark:after:bg-white-500 after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-dark-black"></div>
+                      {/* <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Toggle me</span> */}
+                      </label>
+                    {/* </div> */}
+                </li>
 
-              <a href="https://www.google.com" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
-
-              <a href="https://www.google.com" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
-
-              <a href="https://www.google.com" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
+            </ul>
             </div>
-          </div>
+        </div>
         </nav>
 
         </div>
