@@ -26,8 +26,16 @@
   }
 
   .bg-dark-black{
-    background-color: #1d1d1d;
+    background-color: #10101a;
   }
+  .bg-blacky{
+    background-color: #1d1e29;
+  }
+
+  .text-whity{
+    color: #c4c4c4;
+  }
+  
   
 
 }

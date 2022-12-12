@@ -7,15 +7,15 @@ import PEENGE from "../pict/PEENGE.png";
 function Head(){
     return(
         <section id="head">
-        <div className="default-body sm:small-body md:medium-body lg:large-body dark:bg-dark-black dark:text-white">
+        <div className="default-body sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white">
             <section id="head-about">
                 <div className="grid grid-cols-1 pt-28 sm:pt-28 md:pt-28 lg:pt-32 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                     <div>
                         <p className="animate-pulse text-sm font-semibold pt-5">👋 currently looking for work</p>
-                        <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mt-6">
+                        <h1 className="text-4xl md:text-6xl lg:text-6xl font-black mt-6">
                             Vijay Cheza Pangestu
                         </h1>
-                        <p className="text-sm sm:text-base md:text-base lg:text-base font-semibold mt-6">is a front-end & software engineer web enthusiast. Passionate about creating products and experiences people love to use. </p>
+                        <p className="leading-tight lg:leading-tight sm:font-large md:font-large lg:font-large font-semibold mt-6">is a front-end & software engineer web enthusiast. Passionate about creating products and experiences people love to use. </p>
                             {/* <h1 className="text-2xl mt-8"><em>Front-end Enthusiast</em></h1> */}
                         <div className="mt-6 mb-5">
                             {/* <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">Frontend</span> */}
@@ -46,7 +46,7 @@ function Head(){
                     </div>
                     
                 </div>
-                        <p className="leading-loose text-justify mt-10">
+                        <p className="leading-loose font-medium text-md text-justify mt-10 dark:text-whity">
                         I am a graduate student of Telkom University, majoring in Informatics. Throughout college, I discovered my enthusiasm for Web Programming courses. Since then I have studied and focused on website programming.
                         <br /><br />
                         It didn't end there, during my studies I joined many committees and organizations related to design. I also work on website projects. One of the big projects that I have created is the viral. Live website which aims to brand viral products and sell Smarteye Virtual Convention Center (SVCC) products, namely Webinar & Virtual Expo during my internship in PT. Telkom Indonesia in its position as Web developer. The results of the website that I created were able to bring my team (ViReal SVCC 3-2) to become the best team in the SVCC project. 
@@ -86,7 +86,17 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Web Developer Intern</h3>
                             <p className="dark:text-blue-300">Telkom Indonesia ITDRI</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2022 - Jul 2022</time>
-                            <p className="text-sm text-justify font-normal text-gray-500 dark:text-gray-400">Working on SVCC (Smarteye Virtual Convention Center) is a project to sell SVCC products throughout Indonesia. SVCC's main goal is to combine immersive worlds with 360° panoramic merging and to present learning content for free. The application of SVCC products includes making an expo and also webinars. In its efforts to develop this, Project SVCC collaborates with five helixes, including the government, universities and academics</p>
+                            <p className="text-sm text-justify font-normal text-gray-500 dark:text-gray-400">Working on SVCC (Smarteye Virtual Convention Center) is a project to sell SVCC products throughout Indonesia. SVCC's main goal is to combine immersive worlds with 360° panoramic merging and to present learning content for free. The application of SVCC products includes making an expo and also webinars. My area of responsibilities: </p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 mt-3 text-sm">
+                                <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Involved in the Smarteye Virtual Convention Center (SVCC) project which has a focus on transforming offline events into online events in the form of virtual reality</li>
+                                <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Created a new SVCC product called ViReal and helped in making golden circle, lean canvas, and business model canvas</li>  
+                                <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Create a ViReal website with the Code Igniter version 4 framework to be able to sell SVCC products in the form of virtual reality and webinars</li>  
+                                <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Create ViReal social media designs on Instagram, LinkedIn and Twitter platforms</li>  
+                            </div>
+                            <div className="mt-3">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">PHP</span>
+                                <span className="bg-orange-100 text-orange-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-orange-200 dark:text-orange-900">CodeIgniter4.0</span>
+                            </div>
                         </li>
                         <li className="ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -98,6 +108,10 @@ function Head(){
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
                                 <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Perform usability testing (UT) and heuristic evaluation (HE) on the application Linkaja Telkom Group</li>
                                 <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Knowing the results of implementing usability testing and heuristic evaluation on the Linkaja Telkom Group application against users</li>  
+                            </div>
+                            <div className="mt-3">
+                                <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">SurveyMonkey</span>
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">LookbackParticipate</span>
                             </div>
                         </li>
                         </div>
@@ -138,6 +152,10 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media build_a_bot2020</li>
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of BUILD A BOT</li>  
                             </div>
+                            <div className="mt-3">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
+                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
+                            </div>
                         </li>
                         <li className="mb-10 ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -150,6 +168,10 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media copa_telu</li>
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of COPA Telkom University</li>  
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of copa_telu</li>  
+                            </div>
+                            <div className="mt-3">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
+                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
                             </div>
                         </li>
                         <li className="mb-10 ml-6">
@@ -164,6 +186,10 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of Software Engineering Quality Leadership 2020</li>  
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of Software Engineering Quality Leadership 2020</li>  
                             </div>
+                            <div className="mt-3">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
+                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
+                            </div>
                         </li>
                         <li className="mb-10 ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -177,6 +203,10 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of iCyption</li>  
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of iCyption</li>  
                             </div>
+                            <div className="mt-3">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
+                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
+                            </div>
                         </li>
                         <li className="mb-10 ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -189,6 +219,10 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Ensuring income for the organization in an attractive, creative and innovative way</li>
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Branding and exposing the businesses that owned by this organization</li>  
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Organize and manage gold investments</li>  
+                            </div>
+                            <div className="mt-3">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
+                                <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">Bibit</span>
                             </div>
                         </li>
                         <li className="ml-6">
@@ -204,6 +238,11 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">As a distributor of information for S1 Informatics students at Telkom University</li>  
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Create creative content to publish as needed</li>  
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Doing work documentation of BPH HIMA IF Telkom University</li>  
+                            </div>
+                            <div className="mt-3">
+                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
+                                
+                                <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">AdobePremierePro</span>
                             </div>
                         </li>
                     </div>
