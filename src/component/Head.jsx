@@ -57,7 +57,7 @@ function Head(){
             
             <section id="body-experience">
                 <div className="pt-16 sm:pt28 md:pt-28 lg:pt-28">
-                    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 sm:gap-10 lg:gap-16">
                     
                     <section id="work-experience">
                     <ol className="relative"> 
@@ -74,7 +74,9 @@ function Head(){
                             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Trainer<span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
                             <p className="dark:text-blue-300">Telkom Indonesia ITDRI</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jul 2022 - Aug 2022</time>
-                            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                            <p className="text-sm text-justify font-normal text-gray-500 dark:text-gray-400">
+                            The SMK project aims to increase the competitiveness and capability of SMK students so that they can see the digital talent potential of SMK students throughout Indonesia. Project SMK has 5 (five) main products, namely SmartEye, Sprinthink, Tomps, MyDigiLearn, and Ideabox. SmartEye is a digital service provider through the development of virtual reality and augmented reality to provide immersive experiences. Sprintthink is a service provider of mindset transformation and problem solving delivered through training, workshops, or training of trainers. Next, Tomps is a project management tool based on mobile applications and websites that can facilitate the management of a project. MyDigiLearn is a learning platform developed to accommodate corporate learning. Lastly, Ideabox is a website-based application that functions as an innovation crowdsource.
+                            </p>
                             {/* <a href="#" className="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg className="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a> */}
                         </li>
                         <li className="mb-10 ml-6">
@@ -84,7 +86,7 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Web Developer Intern</h3>
                             <p className="dark:text-blue-300">Telkom Indonesia ITDRI</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2022 - Jul 2022</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                            <p className="text-sm text-justify font-normal text-gray-500 dark:text-gray-400">Working on SVCC (Smarteye Virtual Convention Center) is a project to sell SVCC products throughout Indonesia. SVCC's main goal is to combine immersive worlds with 360° panoramic merging and to present learning content for free. The application of SVCC products includes making an expo and also webinars. In its efforts to develop this, Project SVCC collaborates with five helixes, including the government, universities and academics</p>
                         </li>
                         <li className="ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -93,7 +95,10 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Ux Research Intern</h3>
                             <p className="dark:text-blue-300">Telkom Indonesia DXB</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jul 2021 - Aug 2021</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
+                                <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Perform usability testing (UT) and heuristic evaluation (HE) on the application Linkaja Telkom Group</li>
+                                <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Knowing the results of implementing usability testing and heuristic evaluation on the Linkaja Telkom Group application against users</li>  
+                            </div>
                         </li>
                         </div>
                     </ol>
@@ -113,8 +118,14 @@ function Head(){
                             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Secretary <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
                             <p className="dark:text-blue-300">Himpunan Mahasiswa S1 Informatika Telkom University</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jun 2021 - Mar 2022</time>
-                            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
-                            {/* <a href="#" className="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg className="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a> */}
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm ">
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Responsible and coordinate to the Chair and Deputy Chairperson of HIMA IF</li>
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for and coordinate to the Secretary of each division of BPH HIMA IF</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Making Standard Operating Procedures (SOP) for BPH HIMA IF Secretariat effectively</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Document proposals, accountability reports, incoming and outgoing correspondence from BPH HIMA IF then recap the work program schedule of BPH HIMA IF</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Recap the results of the core meeting and the plenary meeting of BPH HIMA IF</li>  
+                            </div>
+                            
                         </li>
                         <li className="mb-10 ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -123,7 +134,10 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
                             <p className="dark:text-blue-300">BUILD A BOT</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct 2020 - Dec 2020</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media build_a_bot2020</li>
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of BUILD A BOT</li>  
+                            </div>
                         </li>
                         <li className="ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -132,7 +146,11 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
                             <p className="dark:text-blue-300">COPA Tel-U</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Oct 2020 - Dec 2020</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media copa_telu</li>
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of COPA Telkom University</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of copa_telu</li>  
+                            </div>
                         </li>
                         <li className="mb-10 ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -141,7 +159,11 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
                             <p className="dark:text-blue-300">Software Engineering Quality Leadership 2020</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sep 2020 - Nov 2020</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media accounts</li>
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of Software Engineering Quality Leadership 2020</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of Software Engineering Quality Leadership 2020</li>  
+                            </div>
                         </li>
                         <li className="mb-10 ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -150,7 +172,11 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Graphic Designer Staff</h3>
                             <p className="dark:text-blue-300">Information Security and Programming Competition (iCyption) 2020</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">May 2020 - Jul 2020</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Graphic & design creator, content creator in social media accounts</li>
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of iCyption</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of iCyption</li>  
+                            </div>
                         </li>
                         <li className="mb-10 ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -159,7 +185,11 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Creative Economy Staff</h3>
                             <p className="dark:text-blue-300">Perhimpunan Mahasiswa Bandung Telkom University (PERMIB) </p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Aug 2020 - Feb 2021</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Ensuring income for the organization in an attractive, creative and innovative way</li>
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Branding and exposing the businesses that owned by this organization</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Organize and manage gold investments</li>  
+                            </div>
                         </li>
                         <li className="ml-6">
                             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -168,7 +198,13 @@ function Head(){
                             <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Media Information and Communication Staff</h3>
                             <p className="blue-300 dark:text-blue-300">Himpunan Mahasiswa S1 Informatika Telkom University</p>
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2020 - Feb 2021</time>
-                            <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                            <div role="list" className="list-disc text-justify space-y-2 pl-4 text-sm">
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Make SOP for information distribution structurally and efficiently</li>
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Managing BPH HIMA IF Telkom University media (himaiftelkomuniv)</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">As a distributor of information for S1 Informatics students at Telkom University</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Create creative content to publish as needed</li>  
+                                <li className="font-normal text-gray-500 dark:text-gray-400">Doing work documentation of BPH HIMA IF Telkom University</li>  
+                            </div>
                         </li>
                     </div>
                     </ol>
