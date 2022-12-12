@@ -9,7 +9,7 @@ function Head(){
         <section id="head">
         <div className="default-body sm:small-body md:medium-body lg:large-body dark:bg-dark-black dark:text-white">
             <section id="head-about">
-                <div className="grid grid-cols-1 pt-20 sm:pt-20 md:pt-24 lg:pt-32 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-1 pt-28 sm:pt-28 md:pt-28 lg:pt-32 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                     <div>
                         <p className="animate-pulse text-sm font-semibold pt-5">👋 currently looking for work</p>
                         <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold mt-6">
