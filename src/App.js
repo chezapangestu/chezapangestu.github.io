@@ -3,7 +3,7 @@ import './App.css';
 import 'flowbite';
 import Navbar from './component/Navbar';
 import Head from './component/Head';
-import Portoflio from './component/Portfolio';
+import Portfolio from './component/Portfolio';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
 
@@ -12,7 +12,8 @@ function App() {
     <div>
       <Navbar />
       <Head />
-      <Portoflio />
+      <Portfolio />
+
       <Contact />
       <Footer />
 

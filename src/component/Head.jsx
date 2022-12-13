@@ -19,9 +19,9 @@ function Head(){
                             {/* <h1 className="text-2xl mt-8"><em>Front-end Enthusiast</em></h1> */}
                         <div className="mt-6 mb-5">
                             {/* <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">Frontend</span> */}
-                            <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">JavaScript</span>
-                            <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">NodeJS</span>
-                            <span className="bg-sky-200 text-sky-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-sky-200 dark:text-sky-800">ReactJS</span>
+                            <span className="bg-yellow-200 text-yellow-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">JavaScript</span>
+                            <span className="bg-green-200 text-green-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">NodeJS</span>
+                            <span className="bg-sky-200 text-sky-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">ReactJS</span>
                         </div>
                         {/* <div className="mt-6 mb-5">
                             <span className="bg-gray-100 text-gray-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">ExpressJS</span>
@@ -94,8 +94,8 @@ function Head(){
                                 <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Create ViReal social media designs on Instagram, LinkedIn and Twitter platforms</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">PHP</span>
-                                <span className="bg-orange-100 text-orange-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-orange-200 dark:text-orange-900">CodeIgniter4.0</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">PHP</span>
+                                <span className="bg-orange-200 text-orange-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">CodeIgniter4.0</span>
                             </div>
                         </li>
                         <li className="ml-6">
@@ -110,8 +110,8 @@ function Head(){
                                 <li className="mb-4 font-normal text-gray-500 dark:text-gray-400">Knowing the results of implementing usability testing and heuristic evaluation on the Linkaja Telkom Group application against users</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">SurveyMonkey</span>
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">LookbackParticipate</span>
+                                <span className="bg-green-200 text-green-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">SurveyMonkey</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">LookbackParticipate</span>
                             </div>
                         </li>
                         </div>
@@ -153,8 +153,8 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Responsible for the communication, publication and documentation works of BUILD A BOT</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
-                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobePhotoshop</span>
+                                <span className="bg-yellow-200 text-yellow-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobeIlustrator</span>
                             </div>
                         </li>
                         <li className="mb-10 ml-6">
@@ -170,8 +170,8 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of copa_telu</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
-                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobePhotoshop</span>
+                                <span className="bg-yellow-200 text-yellow-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobeIlustrator</span>
                             </div>
                         </li>
                         <li className="mb-10 ml-6">
@@ -187,8 +187,8 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of Software Engineering Quality Leadership 2020</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
-                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobePhotoshop</span>
+                                <span className="bg-yellow-200 text-yellow-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobeIlustrator</span>
                             </div>
                         </li>
                         <li className="mb-10 ml-6">
@@ -204,8 +204,8 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Manage social media of iCyption</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
-                                <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-yellow-200 dark:text-yellow-900">AdobeIlustrator</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobePhotoshop</span>
+                                <span className="bg-yellow-200 text-yellow-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobeIlustrator</span>
                             </div>
                         </li>
                         <li className="mb-10 ml-6">
@@ -221,8 +221,8 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Organize and manage gold investments</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
-                                <span className="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900">Bibit</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobePhotoshop</span>
+                                <span className="bg-green-200 text-green-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Bibit</span>
                             </div>
                         </li>
                         <li className="ml-6">
@@ -240,9 +240,8 @@ function Head(){
                                 <li className="font-normal text-gray-500 dark:text-gray-400">Doing work documentation of BPH HIMA IF Telkom University</li>  
                             </div>
                             <div className="mt-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-900">AdobePhotoshop</span>
-                                
-                                <span className="bg-purple-100 text-purple-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-purple-200 dark:text-purple-900">AdobePremierePro</span>
+                                <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobePhotoshop</span>
+                                <span className="bg-purple-200 text-purple-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">AdobePremierePro</span>
                             </div>
                         </li>
                     </div>
