@@ -1,19 +1,21 @@
-import web1 from "../pict/web-1.png"
-import web2 from "../pict/web-2.png"
-import web3 from "../pict/web-3.png"
-import web4 from "../pict/web-4.png"
-import web5 from "../pict/web-5.png"
+// import web1 from "../pict/web-1.png"
+import tindog from "../pict/web-2.png"
+import drumKit from "../pict/web-3.png"
+import dice from "../pict/web-4.png"
+import simonGame from "../pict/web-5.png"
+import todoList from "../pict/web-6.png"
 
 
 const project = [
     {
       key: 1,
       time: "November 2022",
-      title: "Project-onee",
+      title: "To-do-list",
       content:
         "Q. How many programmers does it take to change a light bulb? A. None – It’s a hardware problem",
-      image: web1,
-      tech1: "HTML"
+      image: todoList,
+      tech1: "HTML",
+      
     },
     {
       key: 2,
@@ -21,7 +23,9 @@ const project = [
       title: "Loops",
       content:
         "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat.",
-      image: web2
+      image: drumKit,
+      tech1: "React",
+      tech2: "JavaScript"
     },
     {
       key: 3,
@@ -29,7 +33,9 @@ const project = [
       title: "Arrays",
       content:
         "Q. Why did the programmer quit his job? A. Because he didn't get arrays.",
-      image: web3
+      image: simonGame,
+      tech1: "React",
+      tech2: "JavaScript"
     },
     {
       key: 4,
@@ -37,15 +43,17 @@ const project = [
       title: "Hardware vs. Software",
       content:
         "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software.",
-      image: web4
+      image: dice,
+      tech1: "React",
+      tech2: "JavaScript"
     },
     {
       key: 5,
       time: "November 2022",
-      title: "Hardware vs. Software",
+      title: "Tindog",
       content:
         "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software.",
-      image: web5,
+      image: tindog,
       tech1: "React",
       tech2: "JavaScript"
     }
