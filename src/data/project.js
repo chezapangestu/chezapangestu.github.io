@@ -71,9 +71,8 @@ const project = [
       image: tindog,
       srcCode: "https://github.com/chezapangestu/tindog-bootstrap",
       link: "https://chezapangestu.github.io/tindog-bootstrap/",
-      tech1: "Bootstrap",
-      tech2: "HTML",
-      tech3: "CSS"
+      tech1: "HTML",
+      tech2: "Bootstrap"
     },
     {
       key: 6,
@@ -86,9 +85,7 @@ const project = [
       link: "http://vireal.live/",
       tech1: "PHP",
       tech2: "CodeIgniter4",
-      tech3: "Bootstrap",
-      tech4: "HTML",
-      tech5: "CSS"
+      tech3: "Bootstrap"
     },
     {
       key: 7,
@@ -97,7 +94,7 @@ const project = [
       content:
         "Presensee is a website to monitor the absence and health of children in school during face-to-face learning through the attendance list, and the temperature of students detected so that information can be sent to parents",
       image: presensee,
-      link: "https://www.figma.com/proto/fBAgzs0hkCmkgmJZzKqSSZ/Presensee?node-id=157%3A1302&scaling=min-zoom&page-id=60%3A627&starting-point-node-id=157%3A1302&show-proto-sidebar=1",
+      proto: "https://www.figma.com/proto/fBAgzs0hkCmkgmJZzKqSSZ/Presensee?node-id=157%3A1302&scaling=min-zoom&page-id=60%3A627&starting-point-node-id=157%3A1302&show-proto-sidebar=1",
       tech1: "FigmaPrototype",
     }
   ];
