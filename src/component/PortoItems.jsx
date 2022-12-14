@@ -13,15 +13,15 @@ function PortoItems(props){
                         <h1 className="text-2xl font-semibold mt-4">{props.title}</h1>
                         <p className="text-gray-500 dark:text-whity text-sm mt-2">{props.content}</p>
                         <div className="mt-2 mb-4">
-                            {props.tech1 ? <span className={clsx(`text-xs font-semibold rounded px-2`,props.tech1)}>{props.tech1}</span> : null}
-                            {props.tech2 ? <span className={clsx(`text-xs font-semibold rounded px-2 ml-2`,props.tech2)}>{props.tech2}</span> : null}
-                            {props.tech3 ? <span className={clsx(`text-xs font-semibold rounded px-2 ml-2`,props.tech3)}>{props.tech3}</span> : null}
-                            {props.tech4 ? <span className={clsx(`text-xs font-semibold rounded px-2 ml-2`,props.tech4)}>{props.tech4}</span> : null}
-                            {props.tech5 ? <span className={clsx(`text-xs font-semibold rounded px-2 ml-2`,props.tech5)}>{props.tech5}</span> : null}
+                            {props.tech1 ? <span className={clsx(`text-xs font-semibold rounded pb-0.5 px-2`,props.tech1)}>{props.tech1}</span> : null}
+                            {props.tech2 ? <span className={clsx(`text-xs font-semibold rounded pb-0.5 px-2 ml-2`,props.tech2)}>{props.tech2}</span> : null}
+                            {props.tech3 ? <span className={clsx(`text-xs font-semibold rounded pb-0.5 px-2 ml-2`,props.tech3)}>{props.tech3}</span> : null}
+                            {props.tech4 ? <span className={clsx(`text-xs font-semibold rounded pb-0.5 px-2 ml-2`,props.tech4)}>{props.tech4}</span> : null}
+                            {props.tech5 ? <span className={clsx(`text-xs font-semibold rounded pb-0.5 px-2 ml-2`,props.tech5)}>{props.tech5}</span> : null}
                             
                         </div>
-                        <a href="http://www.vireal.live" className="rounded font-bold px-1 py-1"><CodeIcon /> source code</a>
-                        <a href="http://www.vireal.live" className="rounded font-bold px-1 py-1 ml-5"><PlayCircleIcon /> project</a>
+                        {props.code ? <a href={props.code} className="rounded font-bold px-1 py-1"><CodeIcon /> source code</a> : null}
+                        <a href={props.link} className="rounded font-bold px-1 py-1 ml-5"><PlayCircleIcon /> project</a>
                     </div>
                     <div className="px-5 py-5 lg:py-5 lg:px-5 mx-auto my-auto">
                         <img className="shadow-lg rounded-md" src={props.image} alt="avatar" />

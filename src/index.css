@@ -44,9 +44,37 @@
     background-color: #fce96a;
     color: #633112;
   }
+  .jQuery{
+    background-color: #a5f3fc;
+    color: #164e63;
+  }
+  .PHP{
+    background-color: #bfdbfe;
+    color: #1e3a8a;
+  }
+  .Bootstrap{
+    background-color: #c7d2fe;
+    color: #312e81;
+  }
   .HTML{
     background-color: #fed7aa;
     color: #7c2d12;
+  }
+  .CSS{
+    background-color: #e5e7eb;
+    color: #111827
+  }
+  .Svelte{
+    background-color: #fecaca;
+    color: #7f1d1d;
+  }
+  .CodeIgniter4{
+    background-color: #fecaca;
+    color: #7f1d1d;
+  }
+  .FigmaPrototype{
+    background-color: #99f6e4;
+    color: #134e4a;
   }
   
   

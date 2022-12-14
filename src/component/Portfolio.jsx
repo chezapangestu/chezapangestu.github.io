@@ -18,6 +18,8 @@ function Portoflio(){
             title={project.title}
             content={project.content}
             image={project.image}
+            code={project.srcCode}
+            link={project.link}
             tech1={project.tech1}
             tech2={project.tech2}
             tech3={project.tech3}
