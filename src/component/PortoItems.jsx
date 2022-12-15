@@ -21,8 +21,8 @@ function PortoItems(props){
                             {props.tech5 ? <span className={clsx(`text-xs font-semibold rounded pb-0.5 px-2 ml-2`,props.tech5)}>{props.tech5}</span> : null}
                             
                         </div>
-                        {props.code ? <a href={props.code} className="rounded font-bold px-1 py-1"><CodeIcon /> source code</a> : null}
-                        {props.link ? <a href={props.link} className="rounded font-bold px-1 py-1 ml-5"><PlayCircleIcon /> project</a> : <a href={props.proto} className="rounded font-bold px-1 py-1"><Grid4x4Icon /> prototype</a>}
+                        {props.code ? <a href={props.code} className="rounded font-bold hover:text-whity px-1 py-1"><CodeIcon /> source code</a> : null}
+                        {props.link ? <a href={props.link} className="rounded font-bold hover:text-whity px-1 py-1 ml-5"><PlayCircleIcon /> project</a> : <a href={props.proto} className="rounded font-bold hover:text-whity px-1 py-1"><Grid4x4Icon /> prototype</a>}
                     </div>
                     <div className="px-5 py-5 lg:py-5 lg:px-5 mx-auto my-auto">
                         <img className="shadow-lg rounded-md" src={props.image} alt="avatar" />
