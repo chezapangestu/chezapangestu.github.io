@@ -94,7 +94,7 @@ const project = [
     },
     {
       key: 7,
-      time: "November 2022 . Back-end develop",
+      time: "November 2022 . Back-end",
       title: "To-do-list using ExpressJS",
       content:
         "Create a to-do list with the ExpressJS Framework and then input the list data into the MongoDB database",
@@ -106,7 +106,7 @@ const project = [
     },
     {
       key: 8,
-      time: "November 2022 . Back-end develop",
+      time: "November 2022 . Back-end",
       title: "Tell The Secret",
       content:
         "Website for uploading a secret, but the user who posted the secret cannot be known by anyone. All secrets that have been dispatched will be visible to all users. Using passport.js to be able to register/login with a google account.",
@@ -118,7 +118,7 @@ const project = [
     },
     {
       key: 9,
-      time: "November 2022 . Back-end develop",
+      time: "November 2022 . Back-end",
       title: "Blog Space",
       content:
         "A website to be able to post like a blog. Each item can be clicked to see the details of the page content",
@@ -130,7 +130,7 @@ const project = [
     },
     {
       key: 10,
-      time: "November 2022 . Back-end develop",
+      time: "November 2022 . Back-end",
       title: "Sticky Note's",
       content:
         "Sticky notes but with a website version to be able to add a note and also delete it. You can input as many notes as possible, like a sticky note on the wall that you often stick",
