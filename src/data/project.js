@@ -7,6 +7,10 @@ import todoList from "../pict/web-6.png"
 import presensee from "../pict/web-7.png"
 import redesign from "../pict/web-8.png"
 import oldWebsite from "../pict/web-9.png"
+import todoListEJS from "../pict/web-10.png"
+import tellSecret from "../pict/web-11.png"
+import blog from "../pict/web-12.png"
+import note from "../pict/web-13.png"
 
 
 const project = [
@@ -90,6 +94,53 @@ const project = [
     },
     {
       key: 7,
+      time: "November 2022 . Back-end develop",
+      title: "To-do-list using ExpressJS",
+      content:
+        "Create a to-do list with the ExpressJS Framework and then input the list data into the MongoDB database",
+      image: todoListEJS,
+      srcCode: "https://github.com/chezapangestu/to-do-list-EJS",
+      tech1: "NodeJS",
+      tech2: "ExpressJS",
+      tech3: "MongoDB"
+    },
+    {
+      key: 8,
+      time: "November 2022 . Back-end develop",
+      title: "Tell The Secret",
+      content:
+        "Website for uploading a secret, but the user who posted the secret cannot be known by anyone. All secrets that have been dispatched will be visible to all users. Using passport.js to be able to register/login with a google account.",
+      image: tellSecret,
+      srcCode: "https://github.com/chezapangestu/tell-the-secret",
+      tech1: "NodeJS",
+      tech2: "ExpressJS",
+      tech3: "MongoDB"
+    },
+    {
+      key: 9,
+      time: "November 2022 . Back-end develop",
+      title: "Blog Space",
+      content:
+        "A website to be able to post like a blog. Each item can be clicked to see the details of the page content",
+      image: blog,
+      srcCode: "https://github.com/chezapangestu/blog-with-mongoDB",
+      tech1: "NodeJS",
+      tech2: "ExpressJS",
+      tech3: "MongoDB"
+    },
+    {
+      key: 10,
+      time: "November 2022 . Back-end develop",
+      title: "Sticky Note's",
+      content:
+        "Sticky notes but with a website version to be able to add a note and also delete it. You can input as many notes as possible, like a sticky note on the wall that you often stick",
+      image: note,
+      srcCode: "https://github.com/chezapangestu/notes-app-react",
+      tech1: "ReactJS",
+      tech2: "CSS"
+    },
+    {
+      key: 11,
       time: "October 2022",
       title: "Old Portfolio Web",
       content:
@@ -101,7 +152,7 @@ const project = [
       tech2: "CSS"
     },
     {
-      key: 8,
+      key: 12,
       time: "March 2022",
       title: "ViReal",
       content:
@@ -114,7 +165,7 @@ const project = [
       tech3: "Bootstrap"
     },
     {
-      key: 9,
+      key: 13,
       time: "Jun 2022",
       title: "Presensee",
       content:
