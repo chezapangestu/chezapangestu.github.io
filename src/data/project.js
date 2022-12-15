@@ -166,8 +166,8 @@ const project = [
     },
     {
       key: 13,
-      time: "Jun 2022",
-      title: "Presensee",
+      time: "June 2022",
+      title: "Presensee Mockup Website",
       content:
         "Presensee is a website to monitor the absence and health of children in school during face-to-face learning through the attendance list, and the temperature of students detected so that information can be sent to parents",
       image: presensee,
