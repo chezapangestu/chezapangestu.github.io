@@ -10,7 +10,7 @@ function Portoflio(){
             <h1 className="text-3xl font-bold">
             What I recently worked on ✍
             </h1>
-            <p className="font-medium text-gray-500 dark:text-whity mt-3 mb-6">Read about some of the products I've got the opportunity to work on</p>
+            <p className="font-medium text-gray-500 dark:text-whity mt-3 mb-6">Read about some of the products and website I've got the opportunity to work on</p>
         {project.map((project => <PortoItems 
             key={project.key}
             id={project.key}
