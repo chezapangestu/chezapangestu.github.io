@@ -5,11 +5,25 @@ import dice from "../pict/web-4.png"
 import simonGame from "../pict/web-5.png"
 import todoList from "../pict/web-6.png"
 import presensee from "../pict/web-7.png"
+import redesign from "../pict/web-8.png"
+import oldWebsite from "../pict/web-9.png"
 
 
 const project = [
     {
       key: 1,
+      time: "December 2022",
+      title: "Redesign Portfolio Web",
+      content:
+        "Redesign my website using reactJS by implementing components in react like react hooks and also using TailwindCSS",
+      image: redesign,
+      srcCode: "https://github.com/chezapangestu/chezapangestu.github.io",
+      link: "https://cheza.netlify.app/",
+      tech1: "ReactJS",
+      tech2: "TailwindCSS"
+    },
+    {
+      key: 2,
       time: "December 2022",
       title: "To-do-list",
       content:
@@ -23,7 +37,7 @@ const project = [
       tech4: "CSS"
     },
     {
-      key: 2,
+      key: 3,
       time: "November 2022",
       title: "Drum Kit",
       content:
@@ -36,11 +50,11 @@ const project = [
       tech3: "CSS"
     },
     {
-      key: 3,
+      key: 4,
       time: "November 2022",
       title: "Simon Game",
       content:
-        "The Simon game is an exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order, which is made using javascript and jQuery library",
+        "The Simon game is an exciting electronic game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order, which is made using JavaScript and jQuery library",
       image: simonGame,
       srcCode: "https://github.com/chezapangestu/Simon-game-challenge",
       link: "https://chezapangestu.github.io/Simon-game-challenge/",
@@ -50,7 +64,7 @@ const project = [
       tech4: "CSS"
     },
     {
-      key: 4,
+      key: 5,
       time: "November 2022",
       title: "Dice Winner",
       content:
@@ -63,7 +77,7 @@ const project = [
       tech3: "CSS"
     },
     {
-      key: 5,
+      key: 6,
       time: "November 2022",
       title: "Tindog",
       content:
@@ -75,7 +89,19 @@ const project = [
       tech2: "Bootstrap"
     },
     {
-      key: 6,
+      key: 7,
+      time: "October 2022",
+      title: "Old Portfolio Web",
+      content:
+        "Self-learning to build my portfolio website using essential components like HTML and CSS",
+      image: oldWebsite,
+      srcCode: "https://github.com/chezapangestu/web-porto-html",
+      link: "https://chezapangestu.github.io/web-porto-html/",
+      tech1: "HTML",
+      tech2: "CSS"
+    },
+    {
+      key: 8,
       time: "March 2022",
       title: "ViReal",
       content:
@@ -88,7 +114,7 @@ const project = [
       tech3: "Bootstrap"
     },
     {
-      key: 7,
+      key: 9,
       time: "Jun 2022",
       title: "Presensee",
       content:
