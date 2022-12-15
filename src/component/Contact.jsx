@@ -7,7 +7,7 @@ function Contact(){
                     <h1 className="text-3xl font-bold">
                     Contact
                     </h1>
-                    <p className="font-medium text-gray-500 dark:text-whity mt-3 mb-6">Here you can read my <a href="https://drive.google.com/file/d/1-yuIlOLMYUj93rSVWghbsw6Po97iTTlS/view?usp=share_link" className="underline">resume</a>, and you can reach me out at:</p>
+                    <p className="font-medium text-gray-500 dark:text-whity mt-3 mb-6">Here you can read my <a href="https://drive.google.com/file/d/1-yuIlOLMYUj93rSVWghbsw6Po97iTTlS/view?usp=share_link" className="underline">resume</a> and my other <a href="https://drive.google.com/file/d/1yhE8CMIRHGywiU8HV0e2ysp-4cVwuB2Y/view?usp=share_link" className="underline">editorial design</a>, and you can reach me at:</p>
                         <div role="list" className="list-disc space-y-2 pl-4 text-sm sm:text-sm md:text-lg lg:text-lg">
                             <li className="text-gray-400 dark:text-white"><span className="text-gray-600 dark:text-white">Email: <a className="underline hover:text-blue-300 dark:hover:text-blue-300" href="mailto:vijaycheza@gmail.com">vijaycheza@gmail.com</a></span></li>
                             <li className="text-gray-400 dark:text-white"><span className="text-gray-600 dark:text-white">GitHub: <a className="underline hover:text-blue-300 dark:hover:text-blue-300" href="https://github.com/chezapangestu">github.com/chezapangestu</a></span></li>
