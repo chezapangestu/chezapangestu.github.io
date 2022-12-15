@@ -95,7 +95,7 @@ function Head(){
                             </div>
                             <div className="mt-3">
                                 <span className="bg-blue-200 text-blue-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">PHP</span>
-                                <span className="bg-orange-200 text-orange-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">CodeIgniter4.0</span>
+                                <span className="bg-orange-200 text-orange-900 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">CodeIgniter4</span>
                             </div>
                         </li>
                         <li className="ml-6">
