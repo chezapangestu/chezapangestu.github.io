@@ -11,9 +11,22 @@ import todoListEJS from "../pict/web-10.png"
 import tellSecret from "../pict/web-11.png"
 import blog from "../pict/web-12.png"
 import note from "../pict/web-13.png"
+import news from "../pict/web-14.png"
 
 
 const project = [
+    {
+      key: 0,
+      time: "December 2022",
+      title: "News Space Flights",
+      content:
+        "A website that provides the latest trending information about space flight using the API and also using the ReactJS framework",
+      image: news,
+      srcCode: "https://github.com/chezapangestu/news-space-flights",
+      link: "https://cz-news-spase-flight.netlify.app/",
+      tech1: "ReactJS",
+      tech2: "CSS"
+    },
     {
       key: 1,
       time: "December 2022",
