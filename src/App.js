@@ -13,7 +13,6 @@ function App() {
       <Navbar />
       <Head />
       <Portfolio />
-
       <Contact />
       <Footer />
 
