@@ -34,13 +34,13 @@ function Navbar(){
 
           <ul className="flex flex-row font-medium text-xs text-right mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:border-gray-500 mb-4 sm:mb-4 md:mb-0 lg:mb=0">
               <li>
-              <button onClick={handleClickScroll} value="body-experience" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300">Experience</button>
+              <button onClick={handleClickScroll} value="body-experience" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300 dark:focus:text-blue-300">Experience</button>
               </li>
               <li>
-              <button onClick={handleClickScroll} value="portfolio" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300">Projects</button>
+              <button onClick={handleClickScroll} value="portfolio" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300 dark:focus:text-blue-300">Projects</button>
               </li>
               <li>
-              <button onClick={handleClickScroll} value="contact-me" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300">Contact</button>
+              <button onClick={handleClickScroll} value="contact-me" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300 dark:focus:text-blue-300">Contact</button>
               </li>
 
               <li>
