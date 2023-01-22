@@ -3,7 +3,7 @@ import React from "react";
 function Contact(){
     return(
         <section id="contact-me">
-                <div className="next-section sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white pt-16 sm:pt28 md:pt-28 lg:pt-28">
+                <div className="next-section sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white pt-16 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out">
                     <h1 className="text-3xl font-bold">
                     Contact
                     </h1>

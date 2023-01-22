@@ -7,7 +7,7 @@ import PEENGE from "../pict/PEENGE.png";
 function Head(){
     return(
         <section id="head">
-        <div className="default-body sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white">
+        <div className="default-body sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white transition duration-300 ease-in-out">
             <section id="head-about">
                 <div className="grid grid-cols-1 pt-28 sm:pt-28 md:pt-28 lg:pt-32 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                     <div>

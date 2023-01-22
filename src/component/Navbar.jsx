@@ -26,7 +26,7 @@ function Navbar(){
 
     return( <div>
 
-      <nav className="bg-white px-2 sm:px-4 py-2.0 dark:bg-black-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-20">
+      <nav className="bg-white px-2 sm:px-4 py-2.0 dark:bg-black-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-20 transition duration-300 ease-in-out">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
           <div className="flex items-center">
           <button onClick={handleClickScroll} value="head" className="self-center tracking-[-.10em] max-[360px]:text-[0px] text-xl sm:text-xl md:text-2xl lg:text-2xl font-bold whitespace-nowrap dark:text-white py-3 pl-5 mb-1">vijaycheza.</button>
@@ -44,7 +44,7 @@ function Navbar(){
               </li>
 
               <li>
-                  <label class="rounded-xl inline-flex relative items-center cursor-pointer mt-1.5 ml-2 lg:mt-2 mr-2">
+                  <label class="rounded-xl inline-flex relative items-center cursor-pointer mt-1.5 ml-2 lg:mt-2 md:mt-2 mr-2">
                     <input type="checkbox" value="" className="sr-only peer" />
                     <div onClick={handleThemeSwitch} className="w-9 h-5 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-gray-500 after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white dark:after:bg-white-500 after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-dark-black"></div>
                   </label>

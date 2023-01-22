@@ -6,7 +6,7 @@ function Portoflio(){
     
     return(
         <section id="portfolio">
-            <div className="next-section sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28">
+            <div className="next-section sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out">
             <h1 className="text-3xl font-bold">
             What I recently worked on ✍
             </h1>
