@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { FcOpenedFolder } from "react-icons/fc";
 
 function Navbar(){
     const [theme, setTheme] = useState("light");
@@ -26,21 +27,22 @@ function Navbar(){
 
     return( <div>
 
-      <nav className="bg-white px-2 sm:px-4 py-2.0 dark:bg-black-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-20 transition duration-300 ease-in-out">
+      <nav className="bg-white px-2 sm:px-4 py-2.0 dark:bg-black-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 backdrop-filter backdrop-blur-lg bg-opacity-20 transition duration-300 ease-in-out">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
           <div className="flex items-center">
-          <button onClick={handleClickScroll} value="head" className="self-center tracking-[-.10em] max-[360px]:text-[0px] text-xl sm:text-xl md:text-2xl lg:text-2xl font-bold whitespace-nowrap dark:text-white py-3 pl-5 mb-1">vijaycheza.</button>
+          <FcOpenedFolder size={30} className="mr-1" />
+          <button onClick={handleClickScroll} value="head" className="self-center tracking-[-.10em] max-[360px]:text-[0px] text-xl sm:text-xl md:text-2xl lg:text-2xl font-bold whitespace-nowrap dark:text-white py-3">vijaycheza.</button>
           </div>
 
           <ul className="flex flex-row font-medium text-xs text-right mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:border-gray-500 mb-4 sm:mb-4 md:mb-0 lg:mb=0">
               <li>
-              <button onClick={handleClickScroll} value="body-experience" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300 dark:focus:text-blue-300">Experience</button>
+              <button onClick={handleClickScroll} value="body-experience" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-gold-500 dark:hover:text-gold-500 focus:text-gold-500 dark:focus:text-gold-500">Experience</button>
               </li>
               <li>
-              <button onClick={handleClickScroll} value="portfolio" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300 dark:focus:text-blue-300">Projects</button>
+              <button onClick={handleClickScroll} value="portfolio" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-gold-500 dark:hover:text-gold-500 focus:text-gold-500 dark:focus:text-gold-500">Projects</button>
               </li>
               <li>
-              <button onClick={handleClickScroll} value="contact-me" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-blue-300 dark:hover:text-blue-300 focus:text-blue-300 dark:focus:text-blue-300">Contact</button>
+              <button onClick={handleClickScroll} value="contact-me" className="py-2 px-2 rounded text-gray-700 dark:text-white hover:text-gold-500 dark:hover:text-blue-300 focus:text-gold-500 dark:focus:text-blue-300">Contact</button>
               </li>
 
               <li>
