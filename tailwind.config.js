@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      "fontFamily":{
+        "circular": ["CircularStd", "sans-serif"],
+        "mark": ["MarkPro", "sans-serif"]
+      },
       "colors": {
         "gold": {
           50: "#FFFAEB",
