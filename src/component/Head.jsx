@@ -25,7 +25,7 @@ function Head(){
                         </div>
                     </div>
                     <div className="mx-auto my-auto sm:mx-auto sm:my-auto md:mx-auto md:my-auto lg:mx-auto lg:my-auto">
-                        <img className="bg-auto" src={PEENGE} alt="avatar" />
+                        <img className="bg-auto w-full sm:w-full md:w-full lg:w-full" src={PEENGE} alt="avatar" />
                     </div>
                     
                 </div>

@@ -38,7 +38,7 @@ function Navbar(){
             <NavLink to="/" onClick={() => {
                   window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
                 }} 
-                className="flex items-center self-center tracking-[-.10em] max-[360px]:text-[0px] text-xl sm:text-xl md:text-2xl lg:text-2xl font-bold font-mark whitespace-nowrap dark:text-white py-3">
+                className="flex items-center mb-1 self-center tracking-[-.10em] max-[360px]:text-[0px] text-xl sm:text-xl md:text-2xl lg:text-2xl font-bold font-mark whitespace-nowrap dark:text-white py-3">
               <FcOpenedFolder size={30} className="mr-1" />
               vijaycheza.
             </NavLink>
