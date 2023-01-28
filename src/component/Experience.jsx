@@ -1,7 +1,14 @@
+import { motion } from "framer-motion"
+
 function Experience(){
     return(
         <section id="body-experience">
-            <div className="default-body sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white transition duration-300 ease-in-out">
+            <motion.div 
+            className="default-body sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white transition duration-300 ease-in-out"
+            initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                exit={{opacity: 0}}
+            >
                 <div className="pt-20 sm:pt28 md:pt-28 lg:pt-28">
                     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 sm:gap-10 lg:gap-16">
                     
@@ -202,7 +209,7 @@ function Experience(){
                     </section>
                 </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

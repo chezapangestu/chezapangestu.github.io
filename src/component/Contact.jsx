@@ -1,10 +1,15 @@
 import React from "react";
-
+import { motion } from "framer-motion"
 
 function Contact(){
     return(
         <section id="contact-me">
-                <div className="next-section sm:small-body md:medium-body lg:large-body text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out">
+                <motion.div 
+                className="next-section sm:small-body md:medium-body lg:large-body text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out"
+                initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                exit={{opacity: 0}}
+                >
                     <h1 className="text-3xl font-bold font-mark">
                     About Me
                     </h1>
@@ -26,7 +31,7 @@ function Contact(){
                             <li className="text-gray-400 font-circular dark:text-white"><span className="text-gray-600 dark:text-white">LinkedIn - <a className="underline hover:text-gold-500 dark:hover:text-gold-500" href="https://www.linkedin.com/in/vijaychezapangestu/">vijaychezapangestu/</a></span></li>
                             <li className="text-gray-400 font-circular dark:text-white"><span className="text-gray-600 dark:text-white">Dribble - <a className="underline hover:text-gold-500 dark:hover:text-gold-500" href="https://dribbble.com/senimanmudakreatif">senimanmudakreatif</a></span></li>
                         </div>
-                </div>
+                </motion.div>
         </section>
     )
 }

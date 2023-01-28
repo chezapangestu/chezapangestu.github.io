@@ -1,12 +1,18 @@
 import React from "react";
 import PortoItems from "./PortoItems";
 import project from "../data/project";
+import { motion } from "framer-motion"
 
 function Portoflio(){
     
     return(
         <section id="portfolio">
-            <div className="next-section sm:small-body md:medium-body lg:large-body text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out">
+            <motion.div 
+            className="next-section sm:small-body md:medium-body lg:large-body text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out"
+            initial={{opacity: 0}}
+                animate={{opacity: 1}}
+                exit={{opacity: 0}}
+            >
             <h1 className="text-3xl font-bold font-mark">
             What I recently worked on ✍
             </h1>
@@ -28,7 +34,7 @@ function Portoflio(){
             tech5={project.tech5}
             />
         ))}
-        </div>
+        </motion.div>
         </section>
     )
 }

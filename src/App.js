@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import 'flowbite';
 import Navbar from './component/Navbar';
@@ -16,6 +16,11 @@ import {
 } from 'react-router-dom';
 
 function BasicLayout() {
+  const [progress, setProgress] = useState(0);
+  useEffect(() =>{
+    setProgress(100)
+  }, [progress])
+
   return (
     <>
       <Navbar />
@@ -37,6 +42,7 @@ const router = createBrowserRouter(
 )
 
 function App() {
+  
   return (
     <RouterProvider router={router} />
   );
