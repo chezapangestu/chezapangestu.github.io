@@ -24,19 +24,19 @@
   }
 
   .default-body{
-    padding: 0% 10% 0%;
+    padding: 0% 16px;
   }
   .large-body{
-    padding: 0% 25% 0%;
+    padding: 0% 25%;
   }
   .medium-body{
-    padding: 0% 13% 0%;
+    padding: 0% 13%;
   }
   .small-body{
-    padding: 0% 10% 0%;
+    padding: 0% 10%;
   }
   .next-section{
-    padding: 0% 10%;
+    padding: 0% 16px 0% 16px;
   }
 
   .bg-dark-black{
