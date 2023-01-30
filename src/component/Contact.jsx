@@ -13,7 +13,7 @@ function Contact(){
                     <h1 className="text-3xl font-bold font-mark">
                     About Me
                     </h1>
-                    <p className="leading-loose font-circular text-lg text-justify text-gray-500 dark:text-whity mt-3 mb-6">
+                    <p className="leading-loose font-circular text-md text-justify text-gray-500 dark:text-whity mt-3 mb-6">
                         I am a graduate student of <a href="https://telkomuniversity.ac.id/" className="underline">Telkom University</a>, majoring in Informatics. Throughout college, I discovered my enthusiasm for Web Programming courses. Since then I have studied and focused on website programming.
                         <br /><br />
                         It didn't end there, during my studies I joined many committees and organizations related to design. I also work on website projects. One of the big projects that I have created is the <a href="http://vireal.live/" className="underline">ViReal</a>. Live website which aims to brand ViReal products and sell <a href="https://svcc.io/" className="underline">Smarteye Virtual Convention Center (SVCC)</a> products, namely Webinar & Virtual Expo during my internship in <a href="https://www.telkom.co.id/sites" className="underline">PT. Telkom Indonesia</a> in its position as Web developer. The results of the website that I created were able to bring my team <a href="https://www.instagram.com/virealbysvcc/" className="underline">(ViReal SVCC 3-2)</a> to become the best team in the SVCC project. 
@@ -23,7 +23,7 @@ function Contact(){
                     <h1 className="text-3xl font-bold font-mark">
                     Contact
                     </h1>
-                    <p className="font-medium font-circular text-lg text-gray-500 dark:text-whity mt-3 mb-6">Here you can read my <a href="https://drive.google.com/file/d/1-yuIlOLMYUj93rSVWghbsw6Po97iTTlS/view?usp=share_link" className="underline">resume</a> and my other <a href="https://drive.google.com/file/d/1yhE8CMIRHGywiU8HV0e2ysp-4cVwuB2Y/view?usp=share_link" className="underline">editorial design</a>, and you can reach me at:</p>
+                    <p className="font-medium font-circular text-md text-gray-500 dark:text-whity mt-3 mb-6">Here you can read my <a href="https://drive.google.com/file/d/1-yuIlOLMYUj93rSVWghbsw6Po97iTTlS/view?usp=share_link" className="underline">resume</a> and my other <a href="https://drive.google.com/file/d/1yhE8CMIRHGywiU8HV0e2ysp-4cVwuB2Y/view?usp=share_link" className="underline">editorial design</a>, and you can reach me at:</p>
                         <div role="list" className="list-disc space-y-2 pl-4 text-sm sm:text-sm md:text-lg lg:text-lg">
                             <li className="text-gray-400 font-circular dark:text-white"><span className="text-gray-600 dark:text-white">Email - <a className="underline hover:text-gold-500 dark:hover:text-gold-500" href="mailto:vijaycheza@gmail.com">vijaycheza@gmail.com</a></span></li>
                             <li className="text-gray-400 font-circular dark:text-white"><span className="text-gray-600 dark:text-white">GitHub - <a className="underline hover:text-gold-500 dark:hover:text-gold-500" href="https://github.com/chezapangestu">chezapangestu</a></span></li>
