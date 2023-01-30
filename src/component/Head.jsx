@@ -35,6 +35,7 @@ function Head(){
                         <img className="bg-auto w-[500px] sm:w-[500px] md:w-[500px] lg:w-[500px]" src={avatar} alt="avatar" />
                     </motion.div>
                     
+                    
                 </div>
                         
             </section>

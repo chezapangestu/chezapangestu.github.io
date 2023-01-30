@@ -11,6 +11,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "clsx": "^1.2.1",
+    "dotenv": "^16.0.3",
     "flowbite": "^1.5.5",
     "flowbite-react": "^0.3.7",
     "framer-motion": "^8.5.4",
@@ -19,6 +20,7 @@
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.4.5",
     "react-scripts": "^5.0.1",
+    "react-spotify-embed": "^1.0.4",
     "react-top-loading-bar": "^2.3.1",
     "web-vitals": "^2.1.4"
   },
