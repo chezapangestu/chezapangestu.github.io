@@ -31,8 +31,6 @@ function Contact(){
                             <li className="text-gray-400 font-circular dark:text-white"><span className="text-gray-600 dark:text-white">LinkedIn - <a className="underline hover:text-gold-500 dark:hover:text-gold-500" href="https://www.linkedin.com/in/vijaychezapangestu/">vijaychezapangestu</a></span></li>
                             <li className="text-gray-400 font-circular dark:text-white"><span className="text-gray-600 dark:text-white">Dribble - <a className="underline hover:text-gold-500 dark:hover:text-gold-500" href="https://dribbble.com/senimanmudakreatif">senimanmudakreatif</a></span></li>
                         </div>
-                        
-                        {/* <p><a> https://open.spotify.com/track/73jVPicY2G9YHmzgjk69ae?si=8ee5ec856b514358 </a></p> */}
                 </motion.div>
         </section>
     )

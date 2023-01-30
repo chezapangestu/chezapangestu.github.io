@@ -7,7 +7,6 @@ import Portfolio from './component/Portfolio';
 import Experience from './component/Experience';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
-import Media from './component/Media';
 import { 
   createBrowserRouter, 
   RouterProvider, 
@@ -25,7 +24,6 @@ function BasicLayout() {
   return (
     <>
       <Navbar />
-      <Media />
       <Outlet />
       <Footer />
     </>
