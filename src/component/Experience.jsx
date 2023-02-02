@@ -14,8 +14,8 @@ function Experience(){
             <motion.div 
             className="next-section sm:small-body md:medium-body lg:large-body dark:bg-dark-black text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out"
             initial={{opacity: 0}}
-                animate={{opacity: 1}}
-                exit={{opacity: 0}}
+            animate={{opacity: 1}}
+            transition={{delay: 0.2}}
             >
                     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 sm:gap-10 lg:gap-16">
                     
@@ -36,7 +36,7 @@ function Experience(){
                             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2022 - Jul 2022</time>
                             <p className="text-md text-justify font-medium font-circular text-gray-600 dark:text-gray-300">Working on SVCC (Smarteye Virtual Convention Center) is a project to sell SVCC products throughout Indonesia. SVCC's main goal is to combine immersive worlds with 360° panoramic merging and to present learning content for free. The application of SVCC products includes making an expo and also webinars. My area of responsibilities:</p>
                             <div role="list" className="list-disc text-justify space-y-2 pl-4 mt-3 text-sm">
-                                <ExperienceList>Helping the SVCC 3-2 squad to achieve the best team among the 14 other SVCC squads by increasing the MERIT score from 73.56 to 87.14 in 1 sprint (2 weeks).</ExperienceList>
+                                <ExperienceList>Helping the SVCC 3-2 squad to achieve one of the best squads in SVCC project by increasing the MERIT score from 73.56 to 87.14 in 1 sprint (2 weeks).</ExperienceList>
                                 <ExperienceList>Created six initial designs of Instagram feeds, which had an average of 53 likes per post and 343 engagements, which exceeded the objective key result of 10 likes per post and 100 engagements.</ExperienceList>
                                 <ExperienceList>Help create golden circles, product concepts, and websites that allow squads to qualify for exclusive coaching three times in a row.</ExperienceList> 
                                 <ExperienceList>Be able to emerge as the best squad at the checkpoint prototype website with a fully functional website deployed and hosted. The website that was built within three days completed the login, register, landing page, product order forms, and prototype page features which were divided into two products, namely virtual expos and webinars. Also, integrating chatbot crisp APIs and admin management pages (CMS) to manage product order form data.</ExperienceList>

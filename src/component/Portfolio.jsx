@@ -10,8 +10,9 @@ function Portoflio(){
             <motion.div 
             className="next-section sm:small-body md:medium-body lg:large-body text-gray-800 dark:text-white pt-20 sm:pt28 md:pt-28 lg:pt-28 transition duration-300 ease-in-out"
             initial={{opacity: 0}}
-                animate={{opacity: 1}}
-                exit={{opacity: 0}}
+            animate={{opacity: 1}}
+            transition={{delay: 0.2}}
+
             >
             <h1 className="text-3xl font-bold font-mark">
             What I recently worked on ✍

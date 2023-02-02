@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       "fontFamily":{
         "circular": ["CircularStd", "sans-serif"],
-        "mark": ["MarkPro", "sans-serif"]
+        "mark": ["MarkPro", "sans-serif"],
+        "montserrat": ["Montserrat", "sans-serif"]
       },
       "colors": {
         "gold": {

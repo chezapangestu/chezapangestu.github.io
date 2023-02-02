@@ -4,6 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Scrollbar */
+* {
+  scrollbar-width: thin;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background: var(--primary); */
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(201, 201, 201);
+  border-radius: 14px;
+  /* border: 1px solid rgba(255, 255, 255, 0); */
+}
+
+
+/* Font */
 @font-face {
   font-family: "CircularStd";
   src: url("./font/CircularStd-Book.woff");
@@ -13,6 +36,7 @@
   font-family: "MarkPro";
   src: url("./font/MarkPro-Heavy.woff");
 }
+
 
 @layer base{
   html {

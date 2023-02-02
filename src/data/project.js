@@ -12,9 +12,35 @@ import tellSecret from "../pict/web-11.png"
 import blog from "../pict/web-12.png"
 import note from "../pict/web-13.png"
 import news from "../pict/web-14.png"
+import twitter from "../pict/web-15.png"
+import holadok from "../pict/web-16.png"
 
 
 const project = [
+    {
+      key: 15,
+      time: "January 2022",
+      title: "Holadok Hero Component",
+      content:
+        "The Holadok Hero component is a visually striking and highly functional element of a doctor appointment website. It is a key part of the website's overall aesthetic and user experience, and can be used to showcase the benefits and features of the website",
+      image: holadok,
+      srcCode: "https://github.com/chezapangestu/Holadok",
+      link: "https://holadok-component.netlify.app/",
+      tech1: "ReactJS",
+      tech2: "TailwindCSS"
+    },
+    {
+      key: 14,
+      time: "January 2022",
+      title: "Twitter Card Component",
+      content:
+        "Twitter Card is a simple card that displays a single tweet from Twitter. It includes the user's avatar, name, username, the tweet itself, the total number of likes, and the date it was published",
+      image: twitter,
+      srcCode: "https://github.com/chezapangestu/twitter-embed",
+      link: "https://twitter-card-component.netlify.app/",
+      tech1: "ReactJS",
+      tech2: "TailwindCSS"
+    },
     {
       key: 0,
       time: "December 2022",

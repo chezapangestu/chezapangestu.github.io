@@ -7,6 +7,7 @@ import Portfolio from './component/Portfolio';
 import Experience from './component/Experience';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
+// import Playlist from './component/Playlist';
 import { 
   createBrowserRouter, 
   RouterProvider, 
@@ -24,6 +25,7 @@ function BasicLayout() {
   return (
     <>
       <Navbar />
+      {/* <Playlist /> */}
       <Outlet />
       <Footer />
     </>
