@@ -19,7 +19,7 @@ import holadok from "../pict/web-16.png"
 const project = [
     {
       key: 15,
-      time: "January 2022",
+      time: "January 2023",
       title: "Holadok Hero Component",
       content:
         "The Holadok Hero component is a visually striking and highly functional element of a doctor appointment website. It is a key part of the website's overall aesthetic and user experience, and can be used to showcase the benefits and features of the website",
@@ -31,7 +31,7 @@ const project = [
     },
     {
       key: 14,
-      time: "January 2022",
+      time: "January 2023",
       title: "Twitter Card Component",
       content:
         "Twitter Card is a simple card that displays a single tweet from Twitter. It includes the user's avatar, name, username, the tweet itself, the total number of likes, and the date it was published",
