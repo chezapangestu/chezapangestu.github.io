@@ -13,22 +13,22 @@ import blog from "../pict/web-12.png"
 import note from "../pict/web-13.png"
 import news from "../pict/web-14.png"
 import twitter from "../pict/web-15.png"
-import holadok from "../pict/web-16.png"
+// import holadok from "../pict/web-16.png"
 
 
 const project = [
-    {
-      key: 15,
-      time: "January 2023",
-      title: "Holadok Hero Component",
-      content:
-        "The Holadok Hero component is a visually striking and highly functional element of a doctor appointment website. It is a key part of the website's overall aesthetic and user experience, and can be used to showcase the benefits and features of the website",
-      image: holadok,
-      srcCode: "https://github.com/chezapangestu/Holadok",
-      link: "https://holadok-component.netlify.app/",
-      tech1: "ReactJS",
-      tech2: "TailwindCSS"
-    },
+    // {
+    //   key: 15,
+    //   time: "January 2023",
+    //   title: "Holadok Hero Component",
+    //   content:
+    //     "The Holadok Hero component is a visually striking and highly functional element of a doctor appointment website. It is a key part of the website's overall aesthetic and user experience, and can be used to showcase the benefits and features of the website",
+    //   image: holadok,
+    //   srcCode: "https://github.com/chezapangestu/Holadok",
+    //   link: "https://holadok-component.netlify.app/",
+    //   tech1: "ReactJS",
+    //   tech2: "TailwindCSS"
+    // },
     {
       key: 14,
       time: "January 2023",
