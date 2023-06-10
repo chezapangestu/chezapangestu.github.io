@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -25,7 +25,6 @@
   /* border: 1px solid rgba(255, 255, 255, 0); */
 }
 
-
 /* Font */
 @font-face {
   font-family: "CircularStd";
@@ -37,100 +36,100 @@
   src: url("./font/MarkPro-Heavy.woff");
 }
 
-
-@layer base{
+@layer base {
   html {
-    font-family: 'Sora',sans-serif;
+    font-family: "Sora", sans-serif;
   }
 
-  .hero-body{
+  .hero-body {
     padding: 5% 10% 0%;
   }
 
-  .default-body{
+  .default-body {
     padding: 0% 16px;
   }
-  .large-body{
+  .large-body {
     padding: 0% 25%;
   }
-  .medium-body{
+  .medium-body {
     padding: 0% 13%;
   }
-  .small-body{
+  .small-body {
     padding: 0% 10%;
   }
-  .next-section{
+  .next-section {
     padding: 0% 16px 0% 16px;
   }
 
-  .bg-dark-black{
+  .bg-dark-black {
     background-color: #10101a;
   }
-  .bg-blacky{
+  .bg-blacky {
     background-color: #1d1e29;
   }
 
-  .text-whity{
+  .text-whity {
     color: #c4c4c4;
   }
 
-  .ReactJS{
+  .ReactJS {
     background-color: #bae6fd;
     color: #075985;
   }
-  .TailwindCSS{
+  .TailwindCSS {
     background-color: #a5f3fc;
     color: #164e63;
   }
-  .JavaScript{
+  .JavaScript {
     background-color: #fce96a;
     color: #633112;
   }
-  .jQuery{
+  .jQuery {
     background-color: #a5f3fc;
     color: #164e63;
   }
-  .PHP{
+  .PHP {
     background-color: #bfdbfe;
     color: #1e3a8a;
   }
-  .Bootstrap{
+  .Bootstrap {
     background-color: #c7d2fe;
     color: #312e81;
   }
-  .HTML{
+  .HTML {
     background-color: #fed7aa;
     color: #7c2d12;
   }
-  .CSS{
-    background-color: #e5e7eb;
-    color: #111827
-  }
-  .Svelte{
-    background-color: #fecaca;
-    color: #7f1d1d;
-  }
-  .CodeIgniter4{
-    background-color: #fecaca;
-    color: #7f1d1d;
-  }
-  .FigmaPrototype{
-    background-color: #99f6e4;
-    color: #134e4a;
-  }
-  .MongoDB{
-    background-color: #d9f99d;
-    color: #365314;
-  }
-  .ExpressJS{
+  .CSS {
     background-color: #e5e7eb;
     color: #111827;
   }
-  .NodeJS{
+  .Svelte {
+    background-color: #fecaca;
+    color: #7f1d1d;
+  }
+  .CodeIgniter4 {
+    background-color: #fecaca;
+    color: #7f1d1d;
+  }
+  .FigmaPrototype {
+    background-color: #99f6e4;
+    color: #134e4a;
+  }
+  .MongoDB {
+    background-color: #d9f99d;
+    color: #365314;
+  }
+  .ExpressJS {
+    background-color: #e5e7eb;
+    color: #111827;
+  }
+  .NodeJS {
     background-color: #bbf7d0;
     color: #14532d;
   }
-  
-  
-
+  .NextJS {
+    background-color: #0f0f0f;
+    color: #ffffff;
+  }
 }
