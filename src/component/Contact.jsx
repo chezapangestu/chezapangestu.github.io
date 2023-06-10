@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Playlist from "./Playlist";
+// import Playlist from "./Playlist";
 
 function Contact() {
   return (
